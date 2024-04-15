@@ -1,0 +1,98 @@
+.PortadaInicio {
+    height: 600px;
+    width: 100%;
+    background-color: red;
+}
+
+.infoClases {
+    background-color: green;
+    padding: 40px;
+}
+
+.cardInfo-clases {
+    height: 300px;
+    width: 100%;
+    background-color: aqua;
+}
+
+/* *************** section nosotros********************************** */
+
+.portadaNosotros {
+    height: 300px;
+    width: 100%;
+    background-color: brown;
+}
+
+.contenidoNosotros {
+    background-color: black;
+    color: white;
+}
+
+.containerTexto-nosotros {
+    width: 100%;
+    padding: 70px 0px 140px 0px;
+    font-size: 17px;
+}
+
+.containerImg-nosotros {
+    width: 100%;
+}
+
+.containerImg-nosotros img {
+    height: 100%;
+    width: 100%;
+}
+
+/* *************** section cursos********************************** */
+
+
+.containerTitulo-curso button{
+    width: 300px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.containerTitulo-curso button:hover{
+   scale: 1.02;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+
+@media screen and (max-width: 768px) {
+
+
+    .PortadaInicio {
+        height: 450px;
+        width: 100%;
+        background-color: red;
+    }
+
+    /* *************** section nosotros********************************** */
+    .containerTexto-nosotros {
+        width: 100%;
+        padding: 70px 0px 50px 0px;
+    }
+
+    .containerImg-nosotros {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    /* *************** section cursos********************************** */
+    .containerTitulo-curso h3{
+        font-size: 30px;
+    }
+
+    .containerTitulo-curso {
+        text-align: center;
+        width: 100%;
+    }
+
+    .containerTitulo-curso button{
+        width: 240px;
+    }
+}

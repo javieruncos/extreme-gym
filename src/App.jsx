@@ -1,10 +1,14 @@
 import './App.css'
+import "bootstrap/dist/css/bootstrap.min.css";
+import Inicio from './components/pages/Inicio';
+import Menu from './components/common/Menu';
 
 function App() {
   return (
     <>
-      <div>
-       <h1>boxing page</h1>
+      <div className='App'>
+        <Menu></Menu>
+        <Inicio></Inicio>
       </div>
     </>
   )
