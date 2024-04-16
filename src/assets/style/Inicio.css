@@ -18,14 +18,21 @@
 /* *************** section nosotros********************************** */
 
 .portadaNosotros {
-    height: 300px;
+    height: 320px;
     width: 100%;
     background-color: brown;
+    overflow: hidden;
+}
+
+.portadaNosotros img{
+    height: 100%;
+    width: 100%;
 }
 
 .contenidoNosotros {
     background-color: black;
     color: white;
+    padding-top: 60px;
 }
 
 .containerTexto-nosotros {
@@ -61,8 +68,16 @@
     transition: 0.5s ease;
 }
 
-@media screen and (max-width: 768px) {
 
+.section-inscribete{
+    background-color: #191919;
+    color: white;
+    margin-top: 100px;
+}
+
+
+
+@media screen and (max-width: 768px) {
 
     .PortadaInicio {
         height: 450px;
@@ -82,6 +97,17 @@
         padding-bottom: 50px;
     }
 
+    .portadaNosotros{
+        height: 250px;
+    }
+
+    .contenidoNosotros {
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+    }
+  
+
     /* *************** section cursos********************************** */
     .containerTitulo-curso h3{
         font-size: 30px;
@@ -94,5 +120,11 @@
 
     .containerTitulo-curso button{
         width: 240px;
+    }
+
+    /* ************section inscribete*************************** */
+
+    .inscribite-container div{
+        text-align: center;
     }
 }

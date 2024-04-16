@@ -1,5 +1,6 @@
 import React from 'react';
 import "../../assets/style/Inicio.css"
+import boxingLlave from "../../assets/img/boxing-llave.jpeg"
 const Inicio = () => {
     return (
         <section>
@@ -30,13 +31,13 @@ const Inicio = () => {
                     </div>
                 </div>
                 <div className='d-flex justify-content-center pt-5'>
-                    <button>mas informacion</button>
+                    <a href='/Formacion' className='btn-red'>mas informacion</a>
                 </div>
             </article>
             <article>
                 <div className='section-nosotros mt-5'>
                     <div className='portadaNosotros'>
-
+                       <img src={boxingLlave} alt="" />
                     </div>
                     <div className='contenidoNosotros'>
                         <div className='container'>
@@ -98,6 +99,32 @@ const Inicio = () => {
                         </div>
                     </div>
 
+                </div>
+            </article>
+            <article className='py-5 section-inscribete'>
+                <div className='container mt-5'>
+                    <div className='row'>
+                        <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='mt-4'>
+                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04377-768x512.jpg.webp"
+                                    alt=""
+                                    className='w-100'
+                                />
+                            </div>
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='inscribite-container'>
+                                <h3 className='display-5 fw-bold mt-4'>¿LISTO PARA EMPEZAR?</h3>
+                                <p className='fs-4'>Saca lo mejor de ti mismo con Gym053. Inscríbete hoy mismo
+                                    en una clase de prueba gratuita y descubre cómo podemos
+                                    ayudarte a alcanzar tus objetivos deportivos.
+                                </p>
+                                <div>
+                                    <button className='btn-red mt-4'>Inscribete</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
