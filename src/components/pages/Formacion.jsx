@@ -1,5 +1,6 @@
 import React from 'react';
 import "../../assets/style/Formacion.css"
+import entrenamiento from "../../assets/img/entrenamiento.jpeg"
 
 const Formacion = () => {
     return (
@@ -63,6 +64,71 @@ const Formacion = () => {
                                     </p>
                                 </div>
                             </div>
+                        </div>
+
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className='subPortada-formacion'>
+                    <img src={entrenamiento} alt="" />
+                </div>
+                <div className='entrenamiento-niños'>
+                    <div className='container pt-5'>
+                        <div className='row pt-5'>
+                            <div className='col-12 col-md-6 col-lg-6'>
+                                <div className='mt-4'>
+                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04796-1-768x512.jpg.webp" alt="" className='w-100' />
+                                </div>
+                            </div>
+                            <div className='col-12 col-md-6 col-lg-6'>
+                                <div className='mt-4'>
+                                    <h4 className='display-5 fw-bold'>Kickboxing para niños</h4>
+                                    <p>¡Dale a tu hijo o hija la oportunidad de aprender kickboxing de una manera
+                                        divertida! Nuestras clases de kickboxing están destinadas a niños a partir
+                                        de los 6 años y tienen como objetivo fortalecer cualidades importantes, como
+                                        la resiliencia, la confianza en sí mismo, la diversión, el movimiento saludable,
+                                        la perseverancia y, por supuesto, las cualidades de kickboxing.
+                                    </p>
+                                    <p>Con nosotros, el ambiente es acogedor y seguro, con diversas actividades lúdicas y
+                                        técnicas fáciles de aprender.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article>
+                <div className='circuito mt-5'>
+                    <div className='container'>
+                        <div className='row pt-5'>
+                            <div className='col-12 col-md-6 col-lg-6'>
+                                <div>
+                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1-768x512.jpg.webp" alt="alunmo entrenando" className='w-100' />
+                                </div>
+                            </div>
+                            <div className='col-12 col-md-6 col-lg-6'>
+                                <div>
+                                    <h4 className='display-5 fw-bold'>Entrenamiento en circuito</h4>
+                                    <p>¡Conoce nuestro entrenamiento intensivo en circuito! Nuestro circuito
+                                        consta de ejercicios de fuerza y cardio que consisten en una combinación
+                                        de kickboxing y crossfit. Durante el entrenamiento, los ejercicios se
+                                        realizan uno tras otro sin mucho descanso, lo que lo convierte en un entrenamiento
+                                        intensivo.
+                                    </p>
+                                    <p>
+                                        Nuestros circuitos son accesibles para todos. Tanto si eres un atleta principiante como
+                                        avanzado, ¡este entrenamiento ofrece un reto para todos!
+                                    </p>
+                                    <p>
+                                        Nuestro entrenamiento en circuito no solo mejora tu movilidad, fuerza y resistencia,
+                                        sino que también es adecuado como complemento a otros deportes. En resumen, ¡el entrenamiento
+                                        en circuito es la manera perfecta de ponerse en forma y fortalecerse!
+                                    </p>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>

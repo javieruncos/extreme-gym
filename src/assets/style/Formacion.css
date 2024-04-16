@@ -32,8 +32,39 @@
     font-size: 17px;
 }
 
+.subPortada-formacion{
+    height: 350px;
+    width: 100%;
+    background-color: blue;
+    margin-top: 100px;
+}
+
+.subPortada-formacion img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.entrenamiento-niños{
+    width: 100%;
+    background-color: #191919;
+    font-size: 18px;
+    color: white;
+    padding-bottom: 130px;
+}
+
+/* *****************seccion entrenamiento circuito******************************** */
+
+.circuito{
+    width: 100%;
+}
+
+.circuito img{
+    height: 470px;
+}
 
 @media screen and (max-width: 768px) {
+
     .portada-formacion{
         height: 400px;
         width: 100%;
@@ -55,9 +86,27 @@
     .containerTitulo-formacion button{
         padding: 10px 20px;
         width: 300px;
-        border: none;
-        background-color: #d72324;
-        color: white;
         font-size: 15px;
+    }
+
+    .cursoFormacion{
+        padding-top: 20px;
+        font-size: 17px;
+    }
+
+    .entrenamiento-niños{
+        width: 100%;
+        background-color: #191919;
+        font-size: 18px;
+        color: white;
+        padding-bottom: 60px;
+    }
+    
+    
+
+    /* *************circuito***************************** */
+    .circuito img{
+        height: 370px;
+        margin-bottom: 20px;
     }
 }
