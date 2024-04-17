@@ -165,7 +165,7 @@ const Planes = () => {
                                 <h6>Ya eres cliente?</h6>
                                 <p>Envíe un correo electrónico a
                                     <span className='text-decoration-underline text-danger ps-2'>
-                                        redactie@leergeldenschede.nl
+                                        redactie@gmail.com
                                     </span> o llame al 053-203 40 19 (opción 1 'clientes')
                                     y solicite el deporte.
                                 </p>
