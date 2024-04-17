@@ -12,6 +12,7 @@ const Menu = () => {
                         <Nav.Link href="#home">Home</Nav.Link>
                         <Nav.Link href="/Formacion">Entrenamiento</Nav.Link>
                         <Nav.Link href="/Horarios">Clases</Nav.Link>
+                        <Nav.Link href="/Planes">Planes</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
             </Container>
