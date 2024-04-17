@@ -28,14 +28,17 @@
 
 
 /* *****************card planes*************************************** */
-.precio-planes{
+.precio-planes {
     height: 600px;
     width: 100%;
-    background-color:white;
+    background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.24);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-.header-planes{
+.header-planes {
     height: 130px;
     width: 100%;
     background-color: #191919;
@@ -47,21 +50,21 @@
     color: white;
 }
 
-.body-planes div{
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
+.body-planes div {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
 }
 
-.item-planes{
+.item-planes {
     font-size: 14px;
     border-bottom: 1px solid grey;
     padding-bottom: 10px;
 }
 
-.btn-inscripcion{
+.btn-inscripcion {
     padding: 10px 20px;
     width: 200px;
     border: none;
@@ -70,13 +73,65 @@
 }
 
 
-.btn-inscripcion:hover{
-   scale: 1.05;
-   transition: 0.5s ease;
+.btn-inscripcion:hover {
+    scale: 1.05;
+    transition: 0.5s ease;
 }
 
+/* ***************leccines y opciones de clases******************************** */
+.card-opciones {
+    height: 348px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    padding-top: 45px;
+    padding-bottom: 10px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+}
 
+.card-opciones-fondos{
+    background-color: white;
+    padding-bottom:10px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+}
 
+.card-grupos-negocios{
+    height: 330px;
+    background-color: white;
+    padding-top: 25px;
+    padding-bottom:10px;
+    border: 1px solid rgba(128, 128, 128, 0.219);
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.card-grupos-negocios button{
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 14px;
+}
+
+.card-grupos-negocios button:hover{
+    scale: 1.05;
+    transition: 0.5s ease;
+}
+
+.containerImg-fundacion{
+    padding-top: 17px;
+}
+
+.containerImg-fundacion img{
+    width: 100%;
+    height:335px;
+}
 
 @media screen and (max-width: 768px) {
     .portada-Planes {
@@ -111,5 +166,20 @@
         font-size: 14px;
     }
 
+    /* ***************leccines y opciones de clases******************************** */
+    .card-opciones {
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        padding-bottom: 40px;
+    }
 
+    .card-grupos-negocios{
+        height: 450px;
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom:40px;
+        border: 1px solid rgba(128, 128, 128, 0.219);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    }
 }

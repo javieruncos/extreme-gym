@@ -133,7 +133,67 @@ const Planes = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </article>
+            <article>
+                <div className='container-lecciones container my-5'>
+                    <h4 className='fs-2 ps-2 fw-bold'>Otras lecciones y opciones</h4>
+                    <div className='row mt-4'>
+                        <div className='col-12 col-md-3 col-lg-3'>
+                            <div className='card-opciones container ps-4 mt-3'>
+                                <h5>Clases privadas (bajo peticion)</h5>
+                                <div className='d-flex flex-column gap-2'>
+                                    <span>1 persona por hora $40 pp</span>
+                                    <span>2 persona por hora $35 pp</span>
+                                    <span>3 persona por hora $30 pp</span>
+                                    <span>4 persona por hora $25 pp</span>
+                                    <p className='text-muted'>total maximo 4 personas</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='col-12 col-md-9 col-lg-9'>
+                            <div className='card-opciones-fondos ps-4 pt-5 mt-3 container'>
+                                <h5>Fondos para la educacion</h5>
+                                <p>¿A tu hijo le gusta hacer deporte pero no hay suficiente dinero en casa?
+                                    ¡La Fundación del Fondo
+                                    para la Educación y el Fondo para la Juventud y el Deporte de Enschede
+                                    nos ayudan! Pagamos la cuota de afiliación y ropa deportiva para niños/jóvenes
+                                    si es necesario.
+                                </p>
+                                <h6>como funciona?</h6>
+                                <p>Regístrese como nuevo cliente a través de  este enlace .</p>
+                                <h6>Ya eres cliente?</h6>
+                                <p>Envíe un correo electrónico a
+                                    <span className='text-decoration-underline text-danger ps-2'>
+                                        redactie@leergeldenschede.nl
+                                    </span> o llame al 053-203 40 19 (opción 1 'clientes')
+                                    y solicite el deporte.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='row mt-4'>
+                        <div className='col-12 col-md-8 col-lg-8'>
+                            <div className='card-grupos-negocios container ps-3 mt-3'>
+                                <h5>Grupos/negocios</h5>
+                                <p>Ofrecemos una amplia gama de actividades y talleres para grupos de 8 a 30 personas.
+                                    Tanto si buscas una actividad divertida de team building como un día deportivo con
+                                    amigos, con nosotros encontrarás la solución perfecta.
+                                </p>
+                                <p>
+                                    Creemos que una mente sana comienza en un cuerpo sano, por eso nuestras actividades se centran
+                                    en la salud física y mental.
+                                </p>
 
+                                <button>Contacto</button>
+                            </div>
+                        </div>
+                        <div className='col-12 col-md-4 col-lg-4'>
+                            <div className='containerImg-fundacion'>
+                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1024x683.jpg.webp" alt="alumno entrenando" className='w-100' />
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </article>
         </section>
