@@ -1,0 +1,115 @@
+.portada-Planes {
+    height: 500px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerTitulo-Planes {
+    width: 700px;
+    font-size: 22px;
+}
+
+.containerTitulo-Planes button {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 22px;
+}
+
+.containerTitulo-Planes button:hover {
+    scale: 1.05;
+    transition: 0.5s ease;
+}
+
+
+
+/* *****************card planes*************************************** */
+.precio-planes{
+    height: 600px;
+    width: 100%;
+    background-color:white;
+    border: 1px solid rgba(128, 128, 128, 0.24);
+}
+
+.header-planes{
+    height: 130px;
+    width: 100%;
+    background-color: #191919;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid red;
+    color: white;
+}
+
+.body-planes div{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.item-planes{
+    font-size: 14px;
+    border-bottom: 1px solid grey;
+    padding-bottom: 10px;
+}
+
+.btn-inscripcion{
+    padding: 10px 20px;
+    width: 200px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+}
+
+
+.btn-inscripcion:hover{
+   scale: 1.05;
+   transition: 0.5s ease;
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .portada-Planes {
+        height: 350px;
+        width: 100%;
+        background-color: aqua;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .containerTitulo-Planes {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .containerTitulo-Planes span {
+        display: none;
+    }
+
+    .containerTitulo-Planes button {
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    /* *****************Horarios*************************************** */
+    .horarios-items {
+        height: 140px;
+        display: block;
+        padding-top: 15px;
+        font-size: 14px;
+    }
+
+
+}

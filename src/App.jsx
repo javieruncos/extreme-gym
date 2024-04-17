@@ -5,6 +5,7 @@ import Formacion from './components/pages/Formacion';
 import Menu from './components/common/Menu';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Horarios from './components/pages/Horarios';
+import Planes from './components/pages/Planes';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path='/' element={<Inicio />} />
           <Route path='/Formacion' element={<Formacion/>} />
           <Route path='/Horarios' element={<Horarios/>} />
+          <Route path='/Planes' element={<Planes/>} />
         </Routes>
         </BrowserRouter>
       </div>
