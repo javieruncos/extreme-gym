@@ -1,19 +1,24 @@
 import React from 'react';
 import '../../assets/style/Planes.css'
+import boxeo from '../../assets/img/clases-boxeo.jpg'
+import boxSenior from '../../assets/img/adultoBox.webp'
 
 const Planes = () => {
     return (
         <section>
             <div className='portada-Planes'>
-                <div className='container pt-5'>
-                    <div className='containerTitulo-Planes'>
-                        <span> DESCUBRE NUESTRAS TARIFAS</span>
-                        <h1 className='display-4 fw-bold'>Nuestros Planes</h1>
-                        <p>
-                            Vea las opciones para contratar una suscripción aquí o reserve su
-                            lección de prueba gratuita directamente a través del botón a continuación.
-                        </p>
-                        <button>RESERVA UNA CLASE GRATUITA</button>
+                <img src={boxeo} alt="" className='w-100' />
+                <div className='capa-Planes'>
+                    <div className='container pt-5'>
+                        <div className='containerTitulo-Planes'>
+                            <span> DESCUBRE NUESTRAS TARIFAS</span>
+                            <h1 className='display-1 fw-bold'>Nuestros Planes</h1>
+                            <p>
+                                Vea las opciones para contratar una suscripción aquí o reserve su
+                                lección de prueba gratuita directamente a través del botón a continuación.
+                            </p>
+                            <button>RESERVA UNA CLASE GRATUITA</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -139,7 +144,7 @@ const Planes = () => {
                 <div className='container-lecciones container my-5'>
                     <h4 className='fs-2 ps-2 fw-bold'>Otras lecciones y opciones</h4>
                     <div className='row mt-4'>
-                        <div className='col-12 col-md-12 col-lg-3'>
+                        <div className='col-12 col-md-12 col-lg-4'>
                             <div className='card-opciones container ps-4 mt-3'>
                                 <h5>Clases privadas (bajo peticion)</h5>
                                 <div className='d-flex flex-column gap-2'>
@@ -151,7 +156,7 @@ const Planes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-12 col-lg-9'>
+                        <div className='col-12 col-md-12 col-lg-8'>
                             <div className='card-opciones-fondos ps-4 pt-5 mt-3 container'>
                                 <h5>Fondos para la educacion</h5>
                                 <p>¿A tu hijo le gusta hacer deporte pero no hay suficiente dinero en casa?
@@ -190,7 +195,7 @@ const Planes = () => {
                         </div>
                         <div className='col-12 col-md-12 col-lg-4'>
                             <div className='containerImg-fundacion'>
-                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1024x683.jpg.webp" alt="alumno entrenando" className='w-100' />
+                                <img src={boxSenior} alt="alumno entrenando" className='w-100' />
                             </div>
                         </div>
                     </div>

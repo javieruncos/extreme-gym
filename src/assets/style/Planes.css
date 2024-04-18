@@ -2,13 +2,31 @@
     height: 500px;
     width: 100%;
     background-color: aqua;
+    position: relative;
+}
+
+.portada-Planes img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-Planes {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
     display: flex;
     justify-content: flex-start;
 }
 
 .containerTitulo-Planes {
     width: 700px;
-    font-size: 22px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+
 }
 
 .containerTitulo-Planes button {
@@ -91,26 +109,26 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-.card-opciones-fondos{
+.card-opciones-fondos {
     background-color: white;
-    padding-bottom:10px;
+    padding-bottom: 4px;
     border: 1px solid rgba(128, 128, 128, 0.219);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-.card-grupos-negocios{
+.card-grupos-negocios {
     height: 330px;
     background-color: white;
     padding-top: 25px;
-    padding-bottom:10px;
+    padding-bottom: 10px;
     border: 1px solid rgba(128, 128, 128, 0.219);
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-.card-grupos-negocios button{
+.card-grupos-negocios button {
     padding: 10px 20px;
     width: 200px;
     border: none;
@@ -119,18 +137,18 @@
     font-size: 14px;
 }
 
-.card-grupos-negocios button:hover{
+.card-grupos-negocios button:hover {
     scale: 1.05;
     transition: 0.5s ease;
 }
 
-.containerImg-fundacion{
+.containerImg-fundacion {
     padding-top: 17px;
 }
 
-.containerImg-fundacion img{
+.containerImg-fundacion img {
     width: 100%;
-    height:335px;
+    height: 335px;
 }
 
 @media screen and (max-width: 768px) {
@@ -146,6 +164,7 @@
         width: 100%;
         font-size: 16px;
         text-align: center;
+        padding-top: 0px;
     }
 
     .containerTitulo-Planes span {
@@ -175,23 +194,30 @@
         padding-bottom: 40px;
     }
 
-    .card-grupos-negocios{
-        height: 377px;
+    .card-grupos-negocios {
+        height: 417px;
         background-color: white;
         padding-top: 25px;
-        padding-bottom:40px;
+        padding-bottom: 40px;
         border: 1px solid rgba(128, 128, 128, 0.219);
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
     }
 
-   
+
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
-   
-    
+
+    .containerTitulo-Planes {
+        width: 70%;
+        font-size: 16px;
+        text-align:start;
+        padding-top: 0px;
+    }
+
+
     .card-grupos-negocios {
         height: 305px;
         background-color: white;

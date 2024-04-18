@@ -1,20 +1,78 @@
 .PortadaInicio {
-    height: 600px;
+    height: 550px;
     width: 100%;
     background-color: red;
+    position: relative;
+}
+
+.PortadaInicio img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.capa-inicio{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
+   
+}
+
+.containerTitulo-Inicio {
+    width: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+
+.containerTitulo-Inicio button {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 22px;
+}
+
+.containerTitulo-Inicio button:hover {
+    background-color: #191919;
+    transition: 0.5s ease;
+    color: white;
+    border: 1px solid grey;
 }
 
 .infoClases {
-    background-color: green;
     padding: 40px;
 }
 
 .cardInfo-clases {
-    height: 300px;
+    height: 400px;
     width: 100%;
-    background-color: aqua;
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
+
+.btn-info{
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #d72324;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-info:hover{
+   background-color: #191919;
+   transition: 0.5s ease;
+}
 /* *************** section nosotros********************************** */
 
 .portadaNosotros {
@@ -80,9 +138,28 @@
 @media screen and (max-width: 768px) {
 
     .PortadaInicio {
-        height: 450px;
+        height: 400px;
         width: 100%;
-        background-color: red;
+        background-color: aqua;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .containerTitulo-Inicio {
+        width: 100%;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 0px;
+    }
+
+    .containerTitulo-Inicio span {
+        display: none;
+    }
+
+    .containerTitulo-Inicio button {
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 15px;
     }
 
     /* *************** section nosotros********************************** */
@@ -130,4 +207,13 @@
         display: none;
     }
     
+    .cardInfo-clases {
+        height: 366px;
+        width: 100%;
+        background-color: white;
+        padding: 40px 20px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    }
 }

@@ -1,43 +1,90 @@
 import React from 'react';
 import "../../assets/style/Inicio.css"
 import boxingLlave from "../../assets/img/boxing-llave.jpeg"
+import boxeo from "../../assets/img/boxeo2.webp"
+import coach from "../../assets/img/coach.webp"
+import alumna from "../../assets/img/alumna-boxing.webp"
+import practicaBox from "../../assets/img/practica-boxeo.webp"
+import practicaBox2 from "../../assets/img/boxeo-practica.webp"
+import boxing from "../../assets/img/boxing.webp"
 const Inicio = () => {
     return (
         <section>
             <div className='PortadaInicio'>
-
+                <img src={boxeo} alt="" />
+                <div className='capa-inicio'>
+                    <div className='container pt-5'>
+                        <div className='containerTitulo-Inicio'>
+                            <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
+                            <h1 className='display-1 fw-bold'>Adiestramiento</h1>
+                            <p>Descubre un amplio abanico de posibilidades en Gym053.
+                                Ya sea que estés buscando mejorar tu técnica o un entrenamiento
+                                intensivo con saco de boxeo, tenemos algo para ti. Echa un
+                                vistazo a nuestras amplias opciones de formación a continuación
+                                y regístrate hoy mismo para recibir una clase de prueba
+                                gratuita.
+                            </p>
+                            <button>RESERVA UNA CLASE GRATUITA</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <article className='infoClases mt-4'>
                 <div className='text-center pt-5'>
-                    <h2 className='display-4'>Entrenamiento ilimitado por <br /> solo 27,50 € por mes</h2>
+                    <h2 className='display-4 fw-bold'>Entrenamiento ilimitado por <br /> solo 27,50 € por mes</h2>
                 </div>
                 <div className='container pt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='cardInfo-clases my-3'>
+                        <div className='col-12 col-md-6 col-lg-4'>
+                            <div className='cardInfo-clases my-3 container py-4'>
+                                <h5 className='fs-3'>Entrenamiento con saco de boxeo</h5>
+                                <p>El entrenamiento con saco de boxeo es ideal para mejorar la
+                                    condición física general y reducir el estrés.
+                                </p>
+                                <p> Aprenderás combinaciones técnicas y desarrollarás la perseverancia,
+                                    donde tú marcas tu propio ritmo y todos, principiantes o luchadores
+                                    competitivos, son bienvenidos.
+                                </p>
+                            </div>
+                        </div>
+                        <div className='col-12 col-md-6 col-lg-4'>
+                            <div className='cardInfo-clases my-3 container py-4'>
+                                <h5 className='fs-3'>Formación tecnológica</h5>
+                                <p>En Gym053 aprendes las técnicas adecuadas practicándolas en parejas
+                                    para conseguir mayor dinámica y motivación.
+                                </p>
+                                <p>
+                                    Además de tu físico y tu técnica, también se estimula tu confianza
+                                    en ti mismo y tu perseverancia. Puedes entrenar con nosotros a tu
+                                    propio nivel y ritmo
+                                </p>
 
                             </div>
                         </div>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='cardInfo-clases my-3'>
-
-                            </div>
-                        </div>
-                        <div className='col-12 col-md-4 col-lg-4'>
-                            <div className='cardInfo-clases my-3'>
-
+                        <div className='col-12 col-md-12 col-lg-4'>
+                            <div className='cardInfo-clases my-3 container py-4'>
+                                <h5 className='fs-3'>kickboxing para niños</h5>
+                                <p>
+                                    Nuestras lecciones de kickboxing para niños a partir de
+                                    6 años se centran en fortalecer la resiliencia, la confianza
+                                    en sí mismos, la diversión y el ejercicio saludable.
+                                </p>
+                                <p>
+                                    Naturalmente, esto se lleva a cabo en un ambiente seguro y
+                                    agradable con actividades lúdicas y técnicas fáciles de aprender.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div className='d-flex justify-content-center pt-5'>
-                    <a href='/Formacion' className='btn-red'>mas informacion</a>
+                    <a href='/Formacion' className='btn-info'>mas informacion</a>
                 </div>
             </article>
             <article>
                 <div className='section-nosotros mt-5'>
                     <div className='portadaNosotros'>
-                       <img src={boxingLlave} alt="" />
+                        <img src={boxingLlave} alt="" />
                     </div>
                     <div className='contenidoNosotros'>
                         <div className='container'>
@@ -66,7 +113,7 @@ const Inicio = () => {
                                 </div>
                                 <div className='col-12 col-md-12 col-lg-4'>
                                     <div className='containerImg-nosotros'>
-                                        <img src="https://gym053.nl/wp-content/uploads/2023/02/HENRY-763x1024.jpg.webp" alt="" />
+                                        <img src={coach} alt="" />
                                         <p className='pt-3'>HENRY HEINHUIS, PROPIETARIO DEL GIMNASIO</p>
                                     </div>
                                 </div>
@@ -84,17 +131,17 @@ const Inicio = () => {
                     <div className='row mt-5'>
                         <div className='col-12 col-md-4 col-lg-4'>
                             <div className='my-3'>
-                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04730-1-683x1024.jpg.webp" alt="foto de alumnos" className='w-100' />
+                                <img src={alumna} alt="foto de alumnos" className='w-100' />
                             </div>
                         </div>
                         <div className='col-12 col-md-4 col-lg-4'>
                             <div className='my-3'>
-                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04730-1-683x1024.jpg.webp" alt="foto de alumnos" className='w-100' />
+                                <img src={practicaBox} alt="foto de alumnos" className='w-100' />
                             </div>
                         </div>
                         <div className='col-12 col-md-4 col-lg-4'>
                             <div className='my-3'>
-                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04730-1-683x1024.jpg.webp" alt="foto de alumnos" className='w-100' />
+                                <img src={practicaBox2} alt="foto de alumnos" className='w-100' />
                             </div>
                         </div>
                     </div>
@@ -106,7 +153,7 @@ const Inicio = () => {
                     <div className='row'>
                         <div className='col-12 col-md-12 col-lg-6'>
                             <div className='mt-4'>
-                                <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04377-768x512.jpg.webp"
+                                <img src={boxing}
                                     alt=""
                                     className='w-100'
                                 />

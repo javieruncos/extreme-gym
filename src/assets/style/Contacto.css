@@ -2,13 +2,31 @@
     height: 500px;
     width: 100%;
     background-color: aqua;
+    position: relative;
+}
+
+.portada-Contacto img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+  
+}
+
+.capa-Contacto {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
     display: flex;
     justify-content: flex-start;
 }
 
 .containerTitulo-Contacto {
     width: 700px;
-    font-size: 22px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
 }
 
 .containerTitulo-Contacto button {
@@ -18,11 +36,15 @@
     background-color: #d72324;
     color: white;
     font-size: 22px;
+    border: 1px solid transparent;
 }
 
 .containerTitulo-Contacto button:hover {
-    scale: 1.05;
-    transition: 0.5s ease;
+  background-color: #191919;
+  transition: 0.5s ease;
+  color: white;
+  border: 1px solid grey;
+
 }
 
 /* ******************formulario de contacto***************************** */
@@ -68,6 +90,11 @@
     color: white;
 }
 
+.subPortada-contacto img{
+    height: 300px;
+    object-fit: cover;
+}
+
 @media screen and (max-width: 768px) {
 
     .portada-Contacto {
@@ -82,6 +109,7 @@
         width: 100%;
         font-size: 16px;
         text-align: center;
+        padding-top: 0px;
     }
 
     .containerTitulo-Contacto span {
@@ -96,5 +124,15 @@
 
     .subPortada-contacto{
        text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .containerTitulo-Contacto {
+        width: 70%;
+        font-size: 16px;
+        text-align: start;
+        padding-top: 0px;
     }
 }

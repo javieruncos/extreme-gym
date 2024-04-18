@@ -1,23 +1,31 @@
 import React from 'react';
 import "../../assets/style/Formacion.css"
 import entrenamiento from "../../assets/img/entrenamiento.jpeg"
+import boxeoPractica2 from "../../assets/img/boxeo-practica2.webp"
+import boxing from "../../assets/img/boxing.webp"
+import alumna from "../../assets/img/alumna2.webp"
+import kickboxing from "../../assets/img/kickboxing.jpeg"
+import boxSenior from "../../assets/img/adultoBox.webp"
 
 const Formacion = () => {
     return (
         <section>
             <div className='portada-formacion'>
-                <div className='container pt-5'>
-                    <div className='containerTitulo-formacion'>
-                        <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
-                        <h1 className='display-4 fw-bold'>Adiestramiento</h1>
-                        <p>Descubre un amplio abanico de posibilidades en Gym053.
-                            Ya sea que estés buscando mejorar tu técnica o un entrenamiento
-                            intensivo con saco de boxeo, tenemos algo para ti. Echa un
-                            vistazo a nuestras amplias opciones de formación a continuación
-                            y regístrate hoy mismo para recibir una clase de prueba
-                            gratuita.
-                        </p>
-                        <button>RESERVA UNA CLASE GRATUITA</button>
+                <img src={kickboxing} alt="" />
+                <div className='capa-formacion'>
+                    <div className='container pt-5'>
+                        <div className='containerTitulo-formacion'>
+                            <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
+                            <h1 className='display-4 fw-bold'>Adiestramiento</h1>
+                            <p>Descubre un amplio abanico de posibilidades en Gym053.
+                                Ya sea que estés buscando mejorar tu técnica o un entrenamiento
+                                intensivo con saco de boxeo, tenemos algo para ti. Echa un
+                                vistazo a nuestras amplias opciones de formación a continuación
+                                y regístrate hoy mismo para recibir una clase de prueba
+                                gratuita.
+                            </p>
+                            <button>RESERVA UNA CLASE GRATUITA</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -27,7 +35,7 @@ const Formacion = () => {
                         <div className='row'>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
-                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04293-1-768x512.jpg.webp" alt="alumno" className='w-100' />
+                                    <img src={boxeoPractica2} alt="alumno" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
@@ -47,7 +55,7 @@ const Formacion = () => {
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
-                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04365-1-768x512.jpg.webp" alt="alumno" className='w-100' />
+                                    <img src={boxing} alt="alumno" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
@@ -78,7 +86,7 @@ const Formacion = () => {
                         <div className='row pt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <div className='mt-4'>
-                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04796-1-768x512.jpg.webp" alt="" className='w-100' />
+                                    <img src={alumna} alt="" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6'>
@@ -105,7 +113,7 @@ const Formacion = () => {
                         <div className='row pt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <div>
-                                    <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1-768x512.jpg.webp" alt="alunmo entrenando" className='w-100' />
+                                    <img src={boxSenior} alt="alunmo entrenando" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6'>

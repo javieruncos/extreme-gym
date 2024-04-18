@@ -1,14 +1,27 @@
 .portada-Horarios {
     height: 500px;
     width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: flex-start;
+   position: relative;
+}
+
+.portada-Horarios img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.capa-Horarios{
+    height: 100%;
+    width: 100%;
+    background-color: #000000b4;
+    position: absolute;
+    top: 0;
 }
 
 .containerTitulo-Horarios {
     width: 700px;
-    font-size: 22px;
+    font-size: 25px;
+    color: white;
 }
 
 .containerTitulo-Horarios button {
@@ -20,9 +33,11 @@
     font-size: 22px;
 }
 
-.containerTitulo-formacion button:hover {
-    scale: 1.05;
+.containerTitulo-Horarios button:hover {
+    background-color: #191919;
     transition: 0.5s ease;
+    color: white;
+    border: 1px solid grey;
 }
 
 
