@@ -1,8 +1,8 @@
 .portada-Contacto {
     height: 500px;
     width: 100%;
-    background-color: aqua;
     position: relative;
+    margin-top: 50px;
 }
 
 .portada-Contacto img{

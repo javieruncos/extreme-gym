@@ -1,8 +1,8 @@
 .PortadaInicio {
     height: 550px;
     width: 100%;
-    background-color: red;
     position: relative;
+    margin-top: 40px;
 }
 
 .PortadaInicio img{

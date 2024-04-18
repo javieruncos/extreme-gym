@@ -3,7 +3,7 @@ import "../../assets/style/Menu.css";
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 const Menu = () => {
     return (
-        <Navbar expand="lg" className="Menu-Nav">
+        <Navbar expand="lg" className="Menu-Nav navbar-dark">
             <Container>
                 <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

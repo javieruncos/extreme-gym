@@ -23,7 +23,7 @@ const Planes = () => {
                 </div>
             </div>
             <article>
-                <div className='container-fluid mt-5 pt-5'>
+                <div className='container-fluid mt-5 '>
                     <div className='row'>
                         <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
