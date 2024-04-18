@@ -25,12 +25,12 @@ const Formacion = () => {
                 <div className='cursoFormacion'>
                     <div className='container'>
                         <div className='row'>
-                            <div className='col-12 col-md-6 col-lg-6 mt-5'>
+                            <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
                                     <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04293-1-768x512.jpg.webp" alt="alumno" className='w-100' />
                                 </div>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-6 mt-5'>
+                            <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
                                     <h3 className='display-5 fw-bold'>Clases de Boxeo</h3>
                                     <p>
@@ -45,12 +45,12 @@ const Formacion = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-6 mt-5'>
+                            <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
                                     <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04365-1-768x512.jpg.webp" alt="alumno" className='w-100' />
                                 </div>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-6 mt-5'>
+                            <div className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
                                     <h3 className='display-5 fw-bold'>Entrenamiento técnico</h3>
                                     <p>
@@ -76,12 +76,12 @@ const Formacion = () => {
                 <div className='entrenamiento-niños'>
                     <div className='container pt-5'>
                         <div className='row pt-5'>
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-12 col-lg-6'>
                                 <div className='mt-4'>
                                     <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04796-1-768x512.jpg.webp" alt="" className='w-100' />
                                 </div>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-12 col-lg-6'>
                                 <div className='mt-4'>
                                     <h4 className='display-5 fw-bold'>Kickboxing para niños</h4>
                                     <p>¡Dale a tu hijo o hija la oportunidad de aprender kickboxing de una manera
@@ -103,12 +103,12 @@ const Formacion = () => {
                 <div className='circuito mt-5'>
                     <div className='container'>
                         <div className='row pt-5'>
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-12 col-lg-6'>
                                 <div>
                                     <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1-768x512.jpg.webp" alt="alunmo entrenando" className='w-100' />
                                 </div>
                             </div>
-                            <div className='col-12 col-md-6 col-lg-6'>
+                            <div className='col-12 col-md-12 col-lg-6'>
                                 <div>
                                     <h4 className='display-5 fw-bold'>Entrenamiento en circuito</h4>
                                     <p>¡Conoce nuestro entrenamiento intensivo en circuito! Nuestro circuito

@@ -168,18 +168,48 @@
 
     /* ***************leccines y opciones de clases******************************** */
     .card-opciones {
+
+        height: 349px;
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.493);
         padding-bottom: 40px;
     }
 
     .card-grupos-negocios{
-        height: 450px;
+        height: 377px;
         background-color: white;
         padding-top: 25px;
         padding-bottom:40px;
         border: 1px solid rgba(128, 128, 128, 0.219);
         box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
         -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    }
+
+   
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+   
+    
+    .card-grupos-negocios {
+        height: 305px;
+        background-color: white;
+        padding-top: 25px;
+        padding-bottom: 40px;
+        border: 1px solid rgba(128, 128, 128, 0.219);
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    }
+
+    .card-opciones {
+        height: 293px;
+        width: 100%;
+        border: 1px solid rgba(128, 128, 128, 0.493);
+        padding-bottom: 40px;
+    }
+
+    .containerImg-fundacion img {
+        height: 382px;
     }
 }

@@ -42,7 +42,7 @@ const Inicio = () => {
                     <div className='contenidoNosotros'>
                         <div className='container'>
                             <div className='row'>
-                                <div className='col-12 col-md-8 col-lg-8'>
+                                <div className='col-12 col-md-12 col-lg-8'>
                                     <div className='containerTexto-nosotros pt-5 container'>
                                         <h3 className='display-5 fw-bold'>nombre del entrenador</h3>
                                         <div>
@@ -64,7 +64,7 @@ const Inicio = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className='col-12 col-md-6 col-lg-4'>
+                                <div className='col-12 col-md-12 col-lg-4'>
                                     <div className='containerImg-nosotros'>
                                         <img src="https://gym053.nl/wp-content/uploads/2023/02/HENRY-763x1024.jpg.webp" alt="" />
                                         <p className='pt-3'>HENRY HEINHUIS, PROPIETARIO DEL GIMNASIO</p>
@@ -104,7 +104,7 @@ const Inicio = () => {
             <article className='py-5 section-inscribete'>
                 <div className='container mt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-6 col-lg-6'>
+                        <div className='col-12 col-md-12 col-lg-6'>
                             <div className='mt-4'>
                                 <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04377-768x512.jpg.webp"
                                     alt=""
@@ -112,7 +112,7 @@ const Inicio = () => {
                                 />
                             </div>
                         </div>
-                        <div className='col-12 col-md-6 col-lg-6'>
+                        <div className='col-12 col-md-12 col-lg-6'>
                             <div className='inscribite-container'>
                                 <h3 className='display-5 fw-bold mt-4'>¿LISTO PARA EMPEZAR?</h3>
                                 <p className='fs-4'>Saca lo mejor de ti mismo con Gym053. Inscríbete hoy mismo

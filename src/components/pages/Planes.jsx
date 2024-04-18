@@ -20,7 +20,7 @@ const Planes = () => {
             <article>
                 <div className='container-fluid mt-5 pt-5'>
                     <div className='row'>
-                        <div className='col-12 col-md-3 col-lg-3 my-3'>
+                        <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
                                     <div className='container pt-4'>
@@ -48,7 +48,7 @@ const Planes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3 col-lg-3 my-3'>
+                        <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
                                     <div>
@@ -76,7 +76,7 @@ const Planes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3 col-lg-3 my-3'>
+                        <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
                                     <div>
@@ -104,7 +104,7 @@ const Planes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-3 col-lg-3 my-3'>
+                        <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
                                     <div>
@@ -139,7 +139,7 @@ const Planes = () => {
                 <div className='container-lecciones container my-5'>
                     <h4 className='fs-2 ps-2 fw-bold'>Otras lecciones y opciones</h4>
                     <div className='row mt-4'>
-                        <div className='col-12 col-md-3 col-lg-3'>
+                        <div className='col-12 col-md-12 col-lg-3'>
                             <div className='card-opciones container ps-4 mt-3'>
                                 <h5>Clases privadas (bajo peticion)</h5>
                                 <div className='d-flex flex-column gap-2'>
@@ -151,7 +151,7 @@ const Planes = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='col-12 col-md-9 col-lg-9'>
+                        <div className='col-12 col-md-12 col-lg-9'>
                             <div className='card-opciones-fondos ps-4 pt-5 mt-3 container'>
                                 <h5>Fondos para la educacion</h5>
                                 <p>¿A tu hijo le gusta hacer deporte pero no hay suficiente dinero en casa?
@@ -173,7 +173,7 @@ const Planes = () => {
                         </div>
                     </div>
                     <div className='row mt-4'>
-                        <div className='col-12 col-md-8 col-lg-8'>
+                        <div className='col-12 col-md-12 col-lg-8'>
                             <div className='card-grupos-negocios container ps-3 mt-3'>
                                 <h5>Grupos/negocios</h5>
                                 <p>Ofrecemos una amplia gama de actividades y talleres para grupos de 8 a 30 personas.
@@ -188,7 +188,7 @@ const Planes = () => {
                                 <button>Contacto</button>
                             </div>
                         </div>
-                        <div className='col-12 col-md-4 col-lg-4'>
+                        <div className='col-12 col-md-12 col-lg-4'>
                             <div className='containerImg-fundacion'>
                                 <img src="https://gym053.nl/wp-content/uploads/2023/02/JDN04492-1024x683.jpg.webp" alt="alumno entrenando" className='w-100' />
                             </div>

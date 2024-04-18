@@ -122,9 +122,12 @@
         width: 240px;
     }
 
-    /* ************section inscribete*************************** */
+}
 
-    .inscribite-container div{
-        text-align: center;
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    .containerImg-nosotros  {
+        display: none;
     }
+    
 }
