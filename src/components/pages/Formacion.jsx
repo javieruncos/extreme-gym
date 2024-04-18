@@ -13,7 +13,7 @@ const Formacion = () => {
             <div className='portada-formacion'>
                 <img src={kickboxing} alt="" />
                 <div className='capa-formacion'>
-                    <div className='container pt-5'>
+                    <div  data-aos="fade-up"  className='container pt-5'>
                         <div className='containerTitulo-formacion'>
                             <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
                             <h1 className='display-4 fw-bold'>Adiestramiento</h1>
@@ -32,14 +32,14 @@ const Formacion = () => {
             <article>
                 <div className='cursoFormacion'>
                     <div className='container'>
-                        <div className='row'>
-                            <div className='col-12 col-md-12 col-lg-6 mt-5'>
+                        <div  className='row'>
+                            <div data-aos="fade-up"  className='col-12 col-md-12 col-lg-6 mt-5'>
                                 <div>
                                     <img src={boxeoPractica2} alt="alumno" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
-                                <div>
+                                <div data-aos="fade-up" >
                                     <h3 className='display-5 fw-bold'>Clases de Boxeo</h3>
                                     <p>
                                         El entrenamiento con saco de boxeo con nosotros tiene como objetivo mejorar su
@@ -54,12 +54,12 @@ const Formacion = () => {
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
-                                <div>
+                                <div data-aos="fade-up" >
                                     <img src={boxing} alt="alumno" className='w-100' />
                                 </div>
                             </div>
                             <div className='col-12 col-md-12 col-lg-6 mt-5'>
-                                <div>
+                                <div data-aos="fade-up" >
                                     <h3 className='display-5 fw-bold'>Entrenamiento técnico</h3>
                                     <p>
                                         Gym053 ofrece entrenamiento técnico donde aprender las técnicas correctas es primordial.
@@ -83,7 +83,7 @@ const Formacion = () => {
                 </div>
                 <div className='entrenamiento-niños'>
                     <div className='container pt-5'>
-                        <div className='row pt-5'>
+                        <div data-aos="fade-up"  className='row pt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <div className='mt-4'>
                                     <img src={alumna} alt="" className='w-100' />
@@ -110,7 +110,7 @@ const Formacion = () => {
             <article>
                 <div className='circuito mt-5'>
                     <div className='container'>
-                        <div className='row pt-5'>
+                        <div data-aos="fade-up"  className='row pt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <div>
                                     <img src={boxSenior} alt="alunmo entrenando" className='w-100' />

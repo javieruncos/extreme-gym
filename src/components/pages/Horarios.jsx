@@ -8,7 +8,7 @@ const Horarios = () => {
                 <img src={boxing} alt="" />
                 <div className='capa-Horarios'>
                     <div className='container pt-5'>
-                        <div className='containerTitulo-Horarios'>
+                        <div data-aos="fade-up"  className='containerTitulo-Horarios'>
                             <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
                             <h1 className='display-1 fw-bold'>Horarios de clases</h1>
                             <p>¡Bienvenido al gimnasio donde el poder y la técnica se fusionan! En nuestro centro,
@@ -23,8 +23,8 @@ const Horarios = () => {
                 </div>
             </div>
             <article>
-                <div className='container-horarios container my-5'>
-                    <div className='horarios-items container my-4'>
+                <div data-aos="fade-up"  className='container-horarios container my-5'>
+                    <div  className='horarios-items container my-4'>
                         <p>CLASES DE BOXEO</p>
                         <p>LUNES, MIERCOLES , VIERNES 18hs </p>
                         <p>PROFESOR: JUAN DOMINGUEZ</p>

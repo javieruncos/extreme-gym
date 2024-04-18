@@ -14,7 +14,7 @@ const Inicio = () => {
                 <img src={boxeo} alt="" />
                 <div className='capa-inicio'>
                     <div className='container pt-5'>
-                        <div className='containerTitulo-Inicio'>
+                        <div  data-aos="fade-up" className='containerTitulo-Inicio'>
                             <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
                             <h1 className='display-1 fw-bold'>Adiestramiento</h1>
                             <p>Descubre un amplio abanico de posibilidades en Gym053.
@@ -30,11 +30,11 @@ const Inicio = () => {
                 </div>
             </div>
             <article className='infoClases mt-4'>
-                <div className='text-center pt-5'>
+                <div  data-aos="fade-up" className='text-center pt-5'>
                     <h2 className='display-4 fw-bold'>Entrenamiento ilimitado por <br /> solo 27,50 € por mes</h2>
                 </div>
                 <div className='container pt-5'>
-                    <div className='row'>
+                    <div  data-aos="fade-up" className='row'>
                         <div className='col-12 col-md-6 col-lg-4'>
                             <div className='cardInfo-clases my-3 container py-4'>
                                 <h5 className='fs-3'>Entrenamiento con saco de boxeo</h5>
@@ -88,7 +88,7 @@ const Inicio = () => {
                     </div>
                     <div className='contenidoNosotros'>
                         <div className='container'>
-                            <div className='row'>
+                            <div  data-aos="fade-up" className='row'>
                                 <div className='col-12 col-md-12 col-lg-8'>
                                     <div className='containerTexto-nosotros pt-5 container'>
                                         <h3 className='display-5 fw-bold'>nombre del entrenador</h3>
@@ -123,12 +123,12 @@ const Inicio = () => {
                 </div>
             </article>
             <article className='pt-5'>
-                <div className='section-cursos container mt-5'>
+                <div  data-aos="fade-up"  className='section-cursos container mt-5'>
                     <div className='containerTitulo-curso'>
                         <h3 className='display-4 fw-bold'>GIMNASIO ONTDEK053</h3>
                         <button className='mt-3'> ver cursos de formacion</button>
                     </div>
-                    <div className='row mt-5'>
+                    <div  className='row mt-5'>
                         <div className='col-12 col-md-4 col-lg-4'>
                             <div className='my-3'>
                                 <img src={alumna} alt="foto de alumnos" className='w-100' />
@@ -150,7 +150,7 @@ const Inicio = () => {
             </article>
             <article className='py-5 section-inscribete'>
                 <div className='container mt-5'>
-                    <div className='row'>
+                    <div  data-aos="fade-up"  className='row'>
                         <div className='col-12 col-md-12 col-lg-6'>
                             <div className='mt-4'>
                                 <img src={boxing}

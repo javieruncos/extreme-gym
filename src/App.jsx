@@ -7,8 +7,14 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Horarios from './components/pages/Horarios';
 import Planes from './components/pages/Planes';
 import Contacto from './components/pages/Contacto';
+import { useEffect } from 'react';
 
 function App() {
+
+  useEffect(() => {
+    AOS.init();
+  },[])
+  
   return (
     <>
       <div className='App'>

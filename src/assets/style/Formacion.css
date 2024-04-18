@@ -1,5 +1,5 @@
 .portada-formacion {
-    height: 500px;
+    height: 550px;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -45,7 +45,7 @@
 
 /* *****************clases de formacion********************************* */
 .cursoFormacion {
-    padding-top: 100px;
+    padding-top: 30px;
     font-size: 20px;
 }
 

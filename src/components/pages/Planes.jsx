@@ -9,7 +9,7 @@ const Planes = () => {
             <div className='portada-Planes'>
                 <img src={boxeo} alt="" className='w-100' />
                 <div className='capa-Planes'>
-                    <div className='container pt-5'>
+                    <div data-aos="fade-up"  className='container pt-5'>
                         <div className='containerTitulo-Planes'>
                             <span> DESCUBRE NUESTRAS TARIFAS</span>
                             <h1 className='display-1 fw-bold'>Nuestros Planes</h1>
@@ -24,7 +24,7 @@ const Planes = () => {
             </div>
             <article>
                 <div className='container-fluid mt-5 '>
-                    <div className='row'>
+                    <div data-aos="fade-up"  className='row'>
                         <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
@@ -143,9 +143,9 @@ const Planes = () => {
             <article>
                 <div className='container-lecciones container my-5'>
                     <h4 className='fs-2 ps-2 fw-bold'>Otras lecciones y opciones</h4>
-                    <div className='row mt-4'>
+                    <div data-aos="fade-up"  className='row mt-4'>
                         <div className='col-12 col-md-12 col-lg-4'>
-                            <div className='card-opciones container ps-4 mt-3'>
+                            <div className='card-opciones container px-5 mt-3'>
                                 <h5>Clases privadas (bajo peticion)</h5>
                                 <div className='d-flex flex-column gap-2'>
                                     <span>1 persona por hora $40 pp</span>
@@ -157,7 +157,7 @@ const Planes = () => {
                             </div>
                         </div>
                         <div className='col-12 col-md-12 col-lg-8'>
-                            <div className='card-opciones-fondos ps-4 pt-5 mt-3 container'>
+                            <div className='card-opciones-fondos px-5 pt-5 mt-3 container'>
                                 <h5>Fondos para la educacion</h5>
                                 <p>¿A tu hijo le gusta hacer deporte pero no hay suficiente dinero en casa?
                                     ¡La Fundación del Fondo
@@ -177,9 +177,9 @@ const Planes = () => {
                             </div>
                         </div>
                     </div>
-                    <div className='row mt-4'>
+                    <div data-aos="fade-up"  className='row mt-4'>
                         <div className='col-12 col-md-12 col-lg-8'>
-                            <div className='card-grupos-negocios container ps-3 mt-3'>
+                            <div className='card-grupos-negocios container px-5 mt-3'>
                                 <h5>Grupos/negocios</h5>
                                 <p>Ofrecemos una amplia gama de actividades y talleres para grupos de 8 a 30 personas.
                                     Tanto si buscas una actividad divertida de team building como un día deportivo con

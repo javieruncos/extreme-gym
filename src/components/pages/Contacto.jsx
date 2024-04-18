@@ -9,7 +9,7 @@ const Contacto = () => {
             <div className='portada-Contacto'>
                 <img src={sacosBoxeo} alt="" />
                 <div className='capa-Contacto  pt-5'>
-                    <div className='container'>
+                    <div data-aos="fade-up"  className='container'>
                         <div className='containerTitulo-Contacto'>
                             <span>¿PREGUNTAS Y/O COMENTARIOS?</span>
                             <h1 className='display-1 fw-bold'>Contacto</h1>
@@ -26,7 +26,7 @@ const Contacto = () => {
             <article>
                 <div className='container-form-contacto mt-5'>
                     <div className='container'>
-                        <div className='row'>
+                        <div data-aos="fade-up"  className='row'>
                             <div className='col-12 col-md-12 col-lg-6'>
                                 <div>
                                     <h3 className='display-6 fw-bold'>Contactanos</h3>
@@ -50,7 +50,7 @@ const Contacto = () => {
             </article>
             <article>
                 <div className='subPortada-contacto'>
-                    <div className='container pt-5'>
+                    <div data-aos="fade-up"  className='container pt-5'>
                         <h3 className='display-6 fw-bold'>Visita nuestras instalaciones</h3>
                         <div className='row '>
                             <div className='col-12 col-md-4 col-lg-4'>
