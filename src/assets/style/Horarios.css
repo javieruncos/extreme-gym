@@ -60,13 +60,10 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-
-
 @media screen and (max-width: 768px) {
     .portada-Horarios {
         height: 400px;
         width: 100%;
-        background-color: aqua;
         display: flex;
         justify-content: flex-start;
     }

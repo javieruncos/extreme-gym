@@ -7,15 +7,15 @@ const FooterMenu = () => {
             <h2 className='display-1'>EXTREME GYM</h2>
             <div className='container'>
                 <ul>
-                    <li><a href="#">Contacto</a></li>
-                    <li><a href="#">Horarios</a></li>
-                    <li><a href="#">Planes</a></li>
-                    <li><a href="#">Formacion</a></li>
+                    <li><a href="/Contacto">Contacto</a></li>
+                    <li><a href="/Horarios">Horarios</a></li>
+                    <li><a href="/Planes">Planes</a></li>
+                    <li><a href="/Formacion">Formacion</a></li>
                 </ul>
             </div>
             <div className='container-redes'>
                <a href=""><i className="bi bi-facebook display-6"></i></a>
-               <a href=""><i class="bi bi-instagram display-6"></i></a>
+               <a href=""><i className="bi bi-instagram display-6"></i></a>
             </div>
         </div>
     );

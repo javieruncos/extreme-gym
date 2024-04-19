@@ -44,7 +44,6 @@
 }
 
 
-
 /* *****************card planes*************************************** */
 .precio-planes {
     height: 600px;
@@ -155,7 +154,6 @@
     .portada-Planes {
         height: 350px;
         width: 100%;
-        background-color: aqua;
         display: flex;
         justify-content: flex-start;
     }
@@ -206,7 +204,6 @@
 
 
 }
-
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
 

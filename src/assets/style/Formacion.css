@@ -52,7 +52,6 @@
 .subPortada-formacion {
     height: 350px;
     width: 100%;
-    background-color: blue;
     margin-top: 100px;
 }
 
@@ -86,7 +85,6 @@
     .portada-formacion {
         height: 400px;
         width: 100%;
-        background-color: aqua;
         display: flex;
         justify-content: flex-start;
     }
@@ -120,8 +118,6 @@
         color: white;
         padding-bottom: 60px;
     }
-
-
 
     /* *************circuito***************************** */
     .circuito img {

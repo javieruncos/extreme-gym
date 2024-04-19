@@ -1,9 +1,22 @@
 .Menu-Nav{
+    height: 75px;
     background-color:#191919;
+    background-color:black;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 1000;
     color: white;
+    font-size: 23px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.363);
+}
+
+.nombrePrincipal{
+    color:#d72324 ;
+}
+
+@media screen and (max-width: 768px) {
+    .Menu-Nav{
+        height: auto;
+    }
 }

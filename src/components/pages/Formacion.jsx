@@ -108,7 +108,7 @@ const Formacion = () => {
                 </div>
             </article>
             <article>
-                <div className='circuito mt-5'>
+                <div className='circuito my-5'>
                     <div className='container'>
                         <div data-aos="fade-up"  className='row pt-5'>
                             <div className='col-12 col-md-12 col-lg-6'>
@@ -136,9 +136,7 @@ const Formacion = () => {
                                     </p>
                                 </div>
                             </div>
-
                         </div>
-
                     </div>
                 </div>
             </article>
