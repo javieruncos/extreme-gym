@@ -150,7 +150,7 @@
     height: 335px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
     .portada-Planes {
         height: 350px;
         width: 100%;
@@ -186,14 +186,14 @@
     /* ***************leccines y opciones de clases******************************** */
     .card-opciones {
 
-        height: 349px;
+        height: 290px;
         width: 100%;
         border: 1px solid rgba(128, 128, 128, 0.493);
         padding-bottom: 40px;
     }
 
     .card-grupos-negocios {
-        height: 417px;
+        height: 370px;
         background-color: white;
         padding-top: 25px;
         padding-bottom: 40px;
@@ -205,7 +205,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 992px) {
 
     .containerTitulo-Planes {
         width: 70%;
@@ -234,5 +234,15 @@
 
     .containerImg-fundacion img {
         height: 382px;
+    }
+
+    .portada-Planes {
+        height: 381px;
+        width: 100%;
+    }
+
+    .containerImg-fundacion{
+        padding-top: 90px;
+        padding-bottom: 40px;
     }
 }

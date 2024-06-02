@@ -140,13 +140,25 @@
     }
 }
 
-
 @media screen and (min-width:600px) and (max-width:991px) {
+    .portada-formacion{
+        height: 450px;
+    }
     .containerTitulo-formacion {
         width: 70%;
         font-size: 16px;
         text-align: start;
         padding-top: 0px;
+    }
+
+    .containerTitulo-formacion button {
+        padding: 10px 20px;
+        width: 273px;
+       
+    }
+
+    .circuito-text{
+        padding-top: 30px;
     }
 
 }
