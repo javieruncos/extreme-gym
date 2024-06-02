@@ -9,7 +9,7 @@ const Planes = () => {
             <div className='portada-Planes'>
                 <img src={boxeo} alt="" className='w-100' />
                 <div className='capa-Planes'>
-                    <div data-aos="fade-up"  className='container pt-5'>
+                    <div data-aos="fade-up" className='container pt-5'>
                         <div className='containerTitulo-Planes'>
                             <span> DESCUBRE NUESTRAS TARIFAS</span>
                             <h1 className='display-1 fw-bold'>Nuestros Planes</h1>
@@ -24,7 +24,7 @@ const Planes = () => {
             </div>
             <article>
                 <div className='container-fluid mt-5 '>
-                    <div data-aos="fade-up"  className='row'>
+                    <div data-aos="fade-up" className='row'>
                         <div className='col-12 col-md-6 col-lg-3 my-3'>
                             <div className='precio-planes'>
                                 <div className='header-planes'>
@@ -48,7 +48,7 @@ const Planes = () => {
                                         <span>Lección de prueba gratuita</span>
                                     </div>
                                     <div className='d-flex justify-content-center py-5'>
-                                        <button className='btn-inscripcion'>inscribite</button>
+                                        <a href='/Contacto' className='btn-inscripcion'>inscribite</a>
                                     </div>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@ const Planes = () => {
                                         <span>Lección de prueba gratuita</span>
                                     </div>
                                     <div className='d-flex justify-content-center py-5'>
-                                        <button className='btn-inscripcion'>inscribite</button>
+                                        <a href='/Contacto' className='btn-inscripcion'>inscribite</a>
                                     </div>
                                 </div>
                             </div>
@@ -105,7 +105,7 @@ const Planes = () => {
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-center py-5'>
-                                    <button className='btn-inscripcion'>inscribite</button>
+                                    <a href='/Contacto' className='btn-inscripcion'>inscribite</a>
                                 </div>
                             </div>
                         </div>
@@ -133,7 +133,7 @@ const Planes = () => {
                                     </div>
                                 </div>
                                 <div className='d-flex justify-content-center py-5'>
-                                    <button className='btn-inscripcion'>inscribite</button>
+                                    <a href='/Contacto' className='btn-inscripcion'>inscribite</a>
                                 </div>
                             </div>
                         </div>
@@ -143,7 +143,7 @@ const Planes = () => {
             <article>
                 <div className='container-lecciones container my-5'>
                     <h4 className='fs-2 ps-2 fw-bold'>Otras lecciones y opciones</h4>
-                    <div data-aos="fade-up"  className='row mt-4'>
+                    <div data-aos="fade-up" className='row mt-4'>
                         <div className='col-12 col-md-12 col-lg-4'>
                             <div className='card-opciones container px-3 mt-3'>
                                 <h5>Clases privadas (bajo peticion)</h5>
@@ -177,7 +177,7 @@ const Planes = () => {
                             </div>
                         </div>
                     </div>
-                    <div data-aos="fade-up"  className='row mt-4'>
+                    <div data-aos="fade-up" className='row mt-4'>
                         <div className='col-12 col-md-12 col-lg-8'>
                             <div className='card-grupos-negocios container px-4 mt-3'>
                                 <h5>Grupos/negocios</h5>

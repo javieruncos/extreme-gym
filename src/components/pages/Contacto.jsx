@@ -11,14 +11,13 @@ const Contacto = () => {
                 <div className='capa-Contacto  pt-5'>
                     <div data-aos="fade-up" className='container'>
                         <div className='containerTitulo-Contacto'>
-                            <span>¿PREGUNTAS Y/O COMENTARIOS?</span>
+                            <span>¿PREGUNTAS / COMENTARIOS?</span>
                             <h1 className='display-1 fw-bold'>Ponte en Contacto con Nosotros</h1>
                             <p>
                                 Contáctenos usando el siguiente formulario o reserve su
                                 lección de prueba gratuita directamente a través del botón a
                                 continuación.
                             </p>
-                            <button>RESERVA UNA CLASE GRATUITA</button>
                         </div>
                     </div>
                 </div>

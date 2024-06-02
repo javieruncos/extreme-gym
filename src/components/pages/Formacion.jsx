@@ -24,7 +24,7 @@ const Formacion = () => {
                                 y regístrate hoy mismo para recibir una clase de prueba
                                 gratuita.
                             </p>
-                            <button>RESERVA UNA CLASE GRATUITA</button>
+                            <a href="/Contacto" className='btn-info'>RESERVA UNA CLASE GRATUITA</a>
                         </div>
                     </div>
                 </div>
