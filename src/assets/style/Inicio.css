@@ -6,20 +6,20 @@
     overflow: hidden;
 }
 
-.PortadaInicio img{
+.PortadaInicio img {
     height: 700px;
     width: 100%;
     object-fit: cover;
     filter: grayscale(100%);
 }
 
-.capa-inicio{
+.capa-inicio {
     height: 100%;
     width: 100%;
     position: absolute;
     top: 0;
     background-color: #000000b4;
-   
+
 }
 
 .containerTitulo-Inicio {
@@ -47,12 +47,8 @@
     border: 1px solid grey;
 }
 
-.infoClases {
-    padding: 40px;
-}
-
 .cardInfo-clases {
-    height: 400px;
+    height: 330px;
     width: 100%;
     background-color: white;
     padding: 40px 20px;
@@ -61,7 +57,12 @@
     -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
 }
 
-.btn-info{
+.cardInfo-clases h5 {
+    color: #d72324;
+    font-weight: bold;
+}
+
+.btn-info {
     padding: 10px 20px;
     width: 200px;
     background-color: #d72324;
@@ -70,20 +71,21 @@
     color: white;
 }
 
-.btn-info:hover{
-   background-color: #191919;
-   transition: 0.5s ease;
+.btn-info:hover {
+    background-color: #191919;
+    transition: 0.5s ease;
 }
+
 /* *************** section nosotros********************************** */
 
 .portadaNosotros {
-    height: 320px;
+    height: 420px;
     width: 100%;
     background-color: brown;
     overflow: hidden;
 }
 
-.portadaNosotros img{
+.portadaNosotros img {
     height: 100%;
     width: 100%;
 }
@@ -112,7 +114,7 @@
 /* *************** section cursos********************************** */
 
 
-.containerTitulo-curso button{
+.containerTitulo-curso button {
     width: 300px;
     padding: 10px 20px;
     background-color: black;
@@ -120,21 +122,21 @@
     border: none;
 }
 
-.containerTitulo-curso button:hover{
-   scale: 1.02;
+.containerTitulo-curso button:hover {
+    scale: 1.02;
     background-color: black;
     color: white;
     transition: 0.5s ease;
 }
 
 
-.section-inscribete{
+.section-inscribete {
     background-color: #191919;
     color: white;
     margin-top: 100px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
 
     .PortadaInicio {
         height: 400px;
@@ -144,10 +146,11 @@
     }
 
     .containerTitulo-Inicio {
-        width: 100%;
-        font-size: 16px;
+        width: 88%;
+        font-size: 15px;
         text-align: center;
         padding-top: 0px;
+        margin: 0 auto;
     }
 
     .containerTitulo-Inicio span {
@@ -160,10 +163,10 @@
         font-size: 15px;
     }
 
-    .PortadaInicio img{
+    .PortadaInicio img {
         height: 600px;
     }
-    
+
 
     /* *************** section nosotros********************************** */
     .containerTexto-nosotros {
@@ -177,7 +180,7 @@
         padding-bottom: 50px;
     }
 
-    .portadaNosotros{
+    .portadaNosotros {
         height: 250px;
     }
 
@@ -186,10 +189,10 @@
         color: white;
         padding-top: 10px;
     }
-  
+
 
     /* *************** section cursos********************************** */
-    .containerTitulo-curso h3{
+    .containerTitulo-curso h3 {
         font-size: 30px;
     }
 
@@ -198,18 +201,35 @@
         width: 100%;
     }
 
-    .containerTitulo-curso button{
+    .containerTitulo-curso button {
         width: 240px;
     }
 
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
-    .containerImg-nosotros  {
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+
+    .PortadaInicio {
+        height: 412px;
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .containerImg-nosotros {
         display: none;
     }
-    
+
+    .containerTitulo-Inicio {
+        width: 520px;
+        font-size: 14px;
+        color: white;
+        padding-top: 40px;
+    }
+
     .cardInfo-clases {
         height: 366px;
         width: 100%;

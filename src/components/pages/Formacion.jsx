@@ -16,7 +16,7 @@ const Formacion = () => {
                     <div  data-aos="fade-up"  className='container pt-5'>
                         <div className='containerTitulo-formacion'>
                             <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
-                            <h1 className='display-4 fw-bold'>Adiestramiento</h1>
+                            <h1 className='display-1 fw-bold'>Adiestramiento</h1>
                             <p>Descubre un amplio abanico de posibilidades en Gym053.
                                 Ya sea que estés buscando mejorar tu técnica o un entrenamiento
                                 intensivo con saco de boxeo, tenemos algo para ti. Echa un

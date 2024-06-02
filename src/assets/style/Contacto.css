@@ -97,7 +97,7 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
 
     .portada-Contacto {
         height: 350px;
@@ -107,10 +107,11 @@
     }
 
     .containerTitulo-Contacto {
-        width: 100%;
+        width: 75%;
         font-size: 16px;
         text-align: center;
         padding-top: 0px;
+        margin: 0 auto;
     }
 
     .containerTitulo-Contacto span {
@@ -129,7 +130,7 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 992px) {
+@media screen and (min-width: 600px) and (max-width: 992px) {
     .containerTitulo-Contacto {
         width: 70%;
         font-size: 16px;

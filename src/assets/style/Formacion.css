@@ -20,10 +20,14 @@
 }
 
 .containerTitulo-formacion {
-    width: 700px;
+    width: 650px;
     font-size: 25px;
     color: white;
     padding-top: 40px;
+}
+
+.containerTitulo-formacion p{
+    font-size: 20px;
 }
 
 .containerTitulo-formacion button {
@@ -80,20 +84,30 @@
     height: 470px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 599px) {
 
     .portada-formacion {
         height: 400px;
         width: 100%;
         display: flex;
-        justify-content: flex-start;
+        justify-content: center;
+    }
+
+    .capa-formacion{
+        width: 100%;
+        display: flex;
     }
 
     .containerTitulo-formacion {
-        width: 100%;
+        width: 80%;
         font-size: 16px;
         text-align: center;
         padding-top: 0px;
+        margin: 0 auto;
+    }
+
+    .containerTitulo-formacion p{
+        font-size: 15px;
     }
 
     .containerTitulo-formacion span {
@@ -127,7 +141,7 @@
 }
 
 
-@media screen and (min-width:768px) and (max-width:992px) {
+@media screen and (min-width:600px) and (max-width:991px) {
     .containerTitulo-formacion {
         width: 70%;
         font-size: 16px;

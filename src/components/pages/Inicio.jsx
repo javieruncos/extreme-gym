@@ -17,7 +17,7 @@ const Inicio = () => {
                         <div data-aos="fade-up" className='containerTitulo-Inicio'>
                             <span> MÁS EN FORMA, MÁS RÁPIDO, MÁS FUERTE.</span>
                             <h1 className='display-2 fw-bold'>Bienvenidos a EXTREME GYM</h1>
-                            <p>
+                            <p className='pb-4'>
                                 Impulsa tus objetivos deportivos con Gym053. En el corazón de Enschede ofrecemos un ambiente
                                 acogedor y motivador para practicar kickboxing y entrenamiento físico. Regístrese hoy para
                                 una lección de prueba gratuita.
@@ -146,8 +146,8 @@ const Inicio = () => {
 
                 </div>
             </article>
-            <article className='py-5 section-inscribete'>
-                <div className='container mt-5'>
+            <article className='py-5 section-inscribete pb-5'>
+                <div className='container my-5'>
                     <div data-aos="fade-up" className='row'>
                         <div className='col-12 col-md-12 col-lg-6'>
                             <div className='mt-4'>
