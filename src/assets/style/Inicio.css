@@ -1,0 +1,242 @@
+.PortadaInicio {
+    height: 550px;
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+    overflow: hidden;
+}
+
+.PortadaInicio img {
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+}
+
+.capa-inicio {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
+
+}
+
+.containerTitulo-Inicio {
+    width: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+.containerTitulo-Inicio a {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    border: 1px solid transparent;
+}
+
+.containerTitulo-Inicio a:hover {
+    background-color: #191919;
+    transition: 0.5s ease;
+    color: white;
+    border: 1px solid grey;
+}
+
+.cardInfo-clases {
+    height: 330px;
+    width: 100%;
+    background-color: white;
+    padding: 40px 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+}
+
+.cardInfo-clases h5 {
+    color: #d72324;
+    font-weight: bold;
+}
+
+.btn-info {
+    padding: 10px 20px;
+    width: 200px;
+    background-color: #d72324;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-info:hover {
+    background-color: #191919;
+    transition: 0.5s ease;
+}
+
+/* *************** section nosotros********************************** */
+
+.portadaNosotros {
+    height: 420px;
+    width: 100%;
+    background-color: brown;
+    overflow: hidden;
+}
+
+.portadaNosotros img {
+    height: 100%;
+    width: 100%;
+}
+
+.contenidoNosotros {
+    background-color: black;
+    color: white;
+    padding-top: 60px;
+}
+
+.containerTexto-nosotros {
+    width: 100%;
+    padding: 70px 0px 140px 0px;
+    font-size: 17px;
+}
+
+.containerImg-nosotros {
+    width: 100%;
+}
+
+.containerImg-nosotros img {
+    height: 100%;
+    width: 100%;
+}
+
+/* *************** section cursos********************************** */
+
+
+.containerTitulo-curso button {
+    width: 300px;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+.containerTitulo-curso button:hover {
+    scale: 1.02;
+    background-color: black;
+    color: white;
+    transition: 0.5s ease;
+}
+
+
+.section-inscribete {
+    background-color: #191919;
+    color: white;
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 599px) {
+
+    .PortadaInicio {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .containerTitulo-Inicio {
+        width: 88%;
+        font-size: 15px;
+        text-align: center;
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+
+    .containerTitulo-Inicio span {
+        display: none;
+    }
+
+    .containerTitulo-Inicio button {
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .PortadaInicio img {
+        height: 600px;
+    }
+
+
+    /* *************** section nosotros********************************** */
+    .containerTexto-nosotros {
+        width: 100%;
+        padding: 70px 0px 50px 0px;
+    }
+
+    .containerImg-nosotros {
+        width: 100%;
+        text-align: center;
+        padding-bottom: 50px;
+    }
+
+    .portadaNosotros {
+        height: 250px;
+    }
+
+    .contenidoNosotros {
+        background-color: black;
+        color: white;
+        padding-top: 10px;
+    }
+
+
+    /* *************** section cursos********************************** */
+    .containerTitulo-curso h3 {
+        font-size: 30px;
+    }
+
+    .containerTitulo-curso {
+        text-align: center;
+        width: 100%;
+    }
+
+    .containerTitulo-curso button {
+        width: 240px;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+
+    .PortadaInicio {
+        height: 412px;
+        width: 100%;
+        position: relative;
+        margin-top: 40px;
+        overflow: hidden;
+    }
+
+    .containerImg-nosotros {
+        display: none;
+    }
+
+    .containerTitulo-Inicio {
+        width: 520px;
+        font-size: 14px;
+        color: white;
+        padding-top: 40px;
+    }
+
+    .cardInfo-clases {
+        height: 366px;
+        width: 100%;
+        background-color: white;
+        padding: 40px 20px;
+        box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+        -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.34);
+    }
+}

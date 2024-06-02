@@ -1,0 +1,164 @@
+.portada-formacion {
+    height: 550px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    margin-top: 40px;
+}
+
+.portada-formacion img {
+    height: 650px;
+    width: 100%;
+}
+
+.capa-formacion {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
+}
+
+.containerTitulo-formacion {
+    width: 650px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+.containerTitulo-formacion p{
+    font-size: 20px;
+}
+
+.containerTitulo-formacion button {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 22px;
+}
+
+.containerTitulo-formacion button:hover {
+    background-color: #191919;
+    transition: 0.5s ease;
+    color: white;
+    border: 1px solid grey;
+}
+
+
+/* *****************clases de formacion********************************* */
+.cursoFormacion {
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+.subPortada-formacion {
+    height: 350px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+.subPortada-formacion img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.entrenamiento-niños {
+    width: 100%;
+    background-color: #191919;
+    font-size: 20px;
+    color: white;
+    padding-bottom: 130px;
+}
+
+/* *****************seccion entrenamiento circuito******************************** */
+
+.circuito {
+    width: 100%;
+    font-size: 20px;
+}
+
+.circuito img {
+    height: 470px;
+}
+
+@media screen and (max-width: 599px) {
+
+    .portada-formacion {
+        height: 400px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .capa-formacion{
+        width: 100%;
+        display: flex;
+    }
+
+    .containerTitulo-formacion {
+        width: 80%;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+
+    .containerTitulo-formacion p{
+        font-size: 15px;
+    }
+
+    .containerTitulo-formacion span {
+        display: none;
+    }
+
+    .containerTitulo-formacion button {
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .cursoFormacion {
+        padding-top: 20px;
+        font-size: 17px;
+    }
+
+    .entrenamiento-niños {
+        width: 100%;
+        background-color: #191919;
+        font-size: 18px;
+        color: white;
+        padding-bottom: 60px;
+    }
+
+    /* *************circuito***************************** */
+    .circuito img {
+        height: 370px;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:991px) {
+    .portada-formacion{
+        height: 450px;
+    }
+    .containerTitulo-formacion {
+        width: 70%;
+        font-size: 16px;
+        text-align: start;
+        padding-top: 0px;
+    }
+
+    .containerTitulo-formacion button {
+        padding: 10px 20px;
+        width: 273px;
+       
+    }
+
+    .circuito-text{
+        padding-top: 30px;
+    }
+
+}

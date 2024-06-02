@@ -1,0 +1,145 @@
+.portada-Contacto {
+    height: 550px;
+    width: 100%;
+    position: relative;
+    margin-top: 50px;
+}
+
+.portada-Contacto img{
+    height: 100%;
+    width: 100%;
+    filter: grayscale(100%);
+  
+}
+
+.capa-Contacto {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    background-color: #000000b4;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.containerTitulo-Contacto {
+    width: 700px;
+    font-size: 25px;
+    color: white;
+    padding-top: 40px;
+}
+
+.containerTitulo-Contacto button {
+    padding: 10px 20px;
+    width: 400px;
+    border: none;
+    background-color: #d72324;
+    color: white;
+    font-size: 22px;
+    border: 1px solid transparent;
+}
+
+.containerTitulo-Contacto button:hover {
+  background-color: #191919;
+  transition: 0.5s ease;
+  color: white;
+  border: 1px solid grey;
+
+}
+
+/* ******************formulario de contacto***************************** */
+.form-contacto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    background-color: white;
+    padding: 40px 40px;
+}
+
+.form-contacto button{
+    padding: 10px 20px;
+    background-color: #d72324;
+    color: white;
+    margin-top: 20px;
+    border: none;
+}
+
+.form-contacto button:hover{
+    scale: 1.02;
+    transition: 0.5s ease;
+   
+}
+
+.container-mapa{
+    height: 570px;
+    width: 100%;
+    margin-top: 80px;
+}
+
+.container-mapa iframe{
+    height: 100%;
+    width: 100%;
+}
+
+.subPortada-contacto{
+    padding: 40px 0px 70px 0px;
+    width: 100%;
+    background-color: #191919;
+    margin-top: 80px;
+    color: white;
+}
+
+.subPortada-contacto img{
+    height: 300px;
+    object-fit: cover;
+}
+
+@media screen and (max-width: 599px) {
+
+    .portada-Contacto {
+        height: 350px;
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .containerTitulo-Contacto {
+        width: 75%;
+        font-size: 16px;
+        text-align: center;
+        padding-top: 0px;
+        margin: 0 auto;
+    }
+
+    .containerTitulo-Contacto span {
+        display: none;
+    }
+
+    .containerTitulo-Contacto button {
+        padding: 10px 20px;
+        width: 300px;
+        font-size: 15px;
+    }
+
+    .subPortada-contacto{
+       text-align: center;
+    }
+}
+
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+
+    .portada-Contacto{
+        height: 450px;
+    }
+
+    .containerTitulo-Contacto {
+        width: 70%;
+        font-size: 16px;
+        text-align: start;
+        padding-top: 0px;
+    }
+}
