@@ -123,8 +123,8 @@ const Inicio = () => {
             <article className='pt-5'>
                 <div data-aos="fade-up" className='section-cursos container mt-5'>
                     <div className='containerTitulo-curso'>
-                        <h3 className='display-4 fw-bold'>GIMNASIO ONTDEK053</h3>
-                        <button className='mt-3'> ver cursos de formacion</button>
+                        <h3 className='display-4 fw-bold'>GIMNASIO EXTREME</h3>
+                        <a href='/Formacion' className='mt-3 btn-info'> ver cursos de formacion</a>
                     </div>
                     <div className='row mt-5'>
                         <div className='col-12 col-md-4 col-lg-4'>
@@ -165,7 +165,7 @@ const Inicio = () => {
                                     ayudarte a alcanzar tus objetivos deportivos.
                                 </p>
                                 <div>
-                                    <button className='btn-red mt-4'>Inscribete</button>
+                                    <a href='/Contacto' className='btn-red mt-4'>Inscribete</a>
                                 </div>
                             </div>
                         </div>
